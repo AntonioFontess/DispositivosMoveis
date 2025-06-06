@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Habitos1</string>
+
+    <string-array name="habitos_nomes">
+        <item>Ler</item>
+        <item>Exercício</item>
+        <item>Meditação</item>
+        <item>Escrever</item>
+        <item>Beber água</item>
+        <item>Estudar</item>
+        <item>Caminhar</item>
+        <item>Organizar</item>
+        <item>Socializar</item>
+        <item>Dormir cedo</item>
+    </string-array>
+
+    <string-array name="habitos_descricoes">
+        <item>Ler por 20 minutos</item>
+        <item>Fazer atividade física</item>
+        <item>Meditar pela manhã</item>
+        <item>Escrever no diário</item>
+        <item>Beber 2 litros de água</item>
+        <item>Revisar conteúdos</item>
+        <item>Caminhada de 30 minutos</item>
+        <item>Organizar tarefas</item>
+        <item>Conversar com amigos</item>
+        <item>Dormir antes das 22h</item>
+    </string-array>
+
+    <string-array name="habitos_frequencias">
+        <item>Diariamente</item>
+        <item>3x por semana</item>
+        <item>Diariamente</item>
+        <item>2x por semana</item>
+        <item>Diariamente</item>
+        <item>Segunda a sexta</item>
+        <item>Diariamente</item>
+        <item>Semanalmente</item>
+        <item>Semanalmente</item>
+        <item>Diariamente</item>
+    </string-array>
+
+    <string-array name="habitos_categorias">
+        <item>Leitura</item>
+        <item>Saúde</item>
+        <item>Bem-estar</item>
+        <item>Reflexão</item>
+        <item>Saúde</item>
+        <item>Estudos</item>
+        <item>Atividade física</item>
+        <item>Produtividade</item>
+        <item>Social</item>
+        <item>Saúde</item>
+    </string-array>
+</resources>
