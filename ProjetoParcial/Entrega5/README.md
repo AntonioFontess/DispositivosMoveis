@@ -48,5 +48,35 @@ As opções são armazenadas com `SharedPreferences`, garantindo que:
 
 ---
 
-## 🗂️ Estrutura de Pastas
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Android Studio**: Ladybug 2024.2.2 (ou superior)
+- **Linguagem**: Java
+- **Gradle**: versão compatível com o Android Studio utilizado
+- `targetSdkVersion`: **35** (Android 15.0)
+- `minSdkVersion`: **24** (Android 7.0)
+- **SharedPreferences** para persistência de configurações
+- **Internacionalização (i18n)** com `strings.xml` traduzidos
+- Modo claro e escuro com tema alternável
+- Menu de configurações customizado
+
+---
+
+## 🚧 Observações
+
+- A mudança de idioma segue automaticamente o idioma configurado no sistema Android.
+- O modo escuro/claro é aplicado com base nas preferências salvas.
+- O comportamento da listagem e do cadastro é ajustado dinamicamente conforme as configurações escolhidas.
+- Todas as configurações são salvas localmente e recuperadas automaticamente ao abrir o app.
+
+---
+
+## ▶️ Como Executar
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/AntonioFontess/DispositivosMoveis.git
 
