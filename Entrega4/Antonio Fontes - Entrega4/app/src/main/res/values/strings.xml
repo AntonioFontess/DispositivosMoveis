@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">habito1</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="sobre">Sobre</string>
+    <string name="utfpr_logo">Logo UTFPR</string>
+    <string name="app_description">Aplicativo para gerenciamento de hábitos diários. Registre, acompanhe e melhore seus hábitos para uma vida mais saudável e produtiva.</string>
+    <string name="student_info">Desenvolvido por: Antonio Fontes</string>
+    <string name="student_email">Curso: Engenharia de Computação\nEmail: antoniod@alunos.utfpr.edu.br</string>
+</resources>
