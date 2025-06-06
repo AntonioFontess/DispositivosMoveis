@@ -55,7 +55,7 @@ A evolução do app incorpora recursos de cadastro, listagem, personalização, 
 
 - **Nome**: Antonio Fontes  
 - **Curso**: Engenharia de Computação — UTFPR  
-- **Email**: antoniofontes@email.com
+- **Email**: antoniomfontes33@gmail.com
 
 ---
 
