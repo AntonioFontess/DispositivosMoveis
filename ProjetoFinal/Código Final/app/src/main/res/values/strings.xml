@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Habit Tracker</string>
+    <string name="adicionar">Add</string>
+    <string name="sobre">About</string>
+    <string name="utfpr_logo">UTFPR Logo</string>
+    <string name="app_description">App to manage daily habits. Track and improve your routines for a better life.</string>
+    <string name="student_info">Developed by: Antonio Fontes</string>
+    <string name="student_email">Course: Computer Engineering\nEmail: antoniod@alunos.utfpr.edu.br</string>
+    <string name="salvar">Save</string>
+    <string name="limpar">Clear</string>
+    <string name="nome">Name</string>
+    <string name="descricao">Description</string>
+    <string name="frequencia">Frequency</string>
+    <string name="categoria">Category</string>
+    <string name="msg_campos_vazios">Please fill all fields before saving</string>
+    <string name="msg_config_salva">Preference saved</string>
+    <string name="ordenar_por">Sort habits by:</string>
+    <string name="nome_radio">Name</string>
+    <string name="categoria_radio">Category</string>
+    <string name="configuracoes">Settings</string>
+    <string name="confirmar_exclusao">Confirmation</string>
+    <string name="deseja_excluir">Do you really want to delete this habit?</string>
+
+</resources>
