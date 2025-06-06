@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">HabitTracker</string>
+    <string name="nome">Nome do Hábito</string>
+    <string name="salvar">Salvar</string>
+    <string name="limpar">Limpar</string>
+    <string name="frequencia">Frequência</string>
+    <string name="tipo">Tipo do Hábito</string>
+    <string name="saude">Saúde</string>
+    <string name="conhecimento">Conhecimento</string>
+    <string name="diario">Este é um hábito diário</string>
+    <string-array name="opcoes_frequencia">
+        <item>Diariamente</item>
+        <item>Semanalmente</item>
+        <item>Mensalmente</item>
+    </string-array>
+</resources>

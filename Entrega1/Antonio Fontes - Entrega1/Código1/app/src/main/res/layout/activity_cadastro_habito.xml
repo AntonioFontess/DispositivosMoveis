@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Nome do hábito -->
+        <TextView
+            android:text="Nome do Hábito:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/editTextNomeHabito"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ex: Beber água" />
+
+        <!-- Frequência -->
+        <TextView
+            android:text="Frequência:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp" />
+        <Spinner
+            android:id="@+id/spinnerFrequencia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Tipo do hábito -->
+        <TextView
+            android:text="Tipo de Hábito:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp" />
+        <RadioGroup
+            android:id="@+id/radioGroupTipo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/radioSaude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Saúde" />
+            <RadioButton
+                android:id="@+id/radioConhecimento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Conhecimento" />
+        </RadioGroup>
+
+        <!-- CheckBox para hábito diário -->
+        <CheckBox
+            android:id="@+id/checkBoxDiario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Este é um hábito diário"
+            android:layout_marginTop="12dp" />
+
+        <!-- Botões -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/buttonSalvar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Salvar" />
+
+            <Button
+                android:id="@+id/buttonLimpar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Limpar"
+                android:layout_marginStart="20dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
